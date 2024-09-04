@@ -52,7 +52,7 @@ function HS1comp() {
         </section>
       </div>
       <section className="herosection flex flex-col  lg:flex-row lg:justify-between lg:mt-16">
-        <div className="mt-60 lg:mr-20 ml:10  lg:w-[850px] flex flex-col  lg:justify-center lg:items-center ">
+        <div className="mt-56 lg:mt-60 lg:mr-20 ml:10  lg:w-[850px] flex flex-col  lg:justify-center lg:items-center ">
           <div className="hs-text  text-left  mr-5 justify-items-center ">
             <BlurInDemo />
           </div>
