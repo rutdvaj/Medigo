@@ -3,12 +3,12 @@ import { Raleway } from "next/font/google";
 import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 
-export const raleway = Raleway({
+const raleway = Raleway({
   subsets: ["latin"],
   variable: "--font-raleway",
   display: "swap",
 });
-export const playfairDisplay = Playfair_Display({
+const playfairDisplay = Playfair_Display({
   subsets: ["latin"],
   variable: "--font-playfair-display",
   display: "swap",
