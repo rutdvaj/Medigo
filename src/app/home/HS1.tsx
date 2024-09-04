@@ -59,10 +59,10 @@ function HS1comp() {
           <div className="mr-6 ml-6 mt-8 justify-items-center">
             <Btextcomp />
           </div>
-        </div>
-        <div className="cta-2 py-20 lg:hidden">
-          <div className="">
-            <AnimatedModalDemo />
+          <div className="cta-2 py-20 ">
+            <div className="">
+              <AnimatedModalDemo />
+            </div>
           </div>
         </div>
         <div className="main-img lg:hidden">
