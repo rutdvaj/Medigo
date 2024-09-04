@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
+import { GeistSans } from "geist/font/sans";
+import { GeistMono } from "geist/font/mono";
+
 import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 
@@ -25,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${playfairDisplay.variable} ${raleway.variable}`}>
+      <body className={`${GeistMono.variable} ${raleway.variable}`}>
         {children}
       </body>
     </html>

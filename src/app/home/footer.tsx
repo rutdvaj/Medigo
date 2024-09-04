@@ -11,11 +11,11 @@ function FooterComp() {
           <div className="items-center mt-1">
             <Image src={logoimg} alt="" />
           </div>
-          <h1 className="text-main font-sans font-bold text-[24px] md:text-[26px]">
+          <h1 className="text-main font-sans font-bold text-[24px] md:text-[26px] cursor-pointer">
             MediGo
           </h1>
         </div>
-        <div className="tags flex flex-col md:flex-row justify-around gap-4 md:gap-16 font-sans text-[16px] md:text-[20px] mt-4 md:mt-0">
+        <div className="tags flex flex-col md:flex-row justify-around gap-4 md:gap-16 font-sans text-[16px] md:text-[20px] mt-4 md:mt-0 text-main font-semibold cursor-pointer">
           <p>Services</p>
           <p>Features</p>
           <p>FAQ</p>

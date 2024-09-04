@@ -35,10 +35,10 @@ const config = {
     extend: {
       fontFamily: {
         sans: ['var(--font-raleway)', 'sans-serif'],
-        serif: ['var(--font-playfair-display)', 'serif'],
+         mono: ['var(--font-geist-mono)'],
       },
       colors: {
-        primary: '#EFE9F8',
+        primary: '#ffffff',
         secondary: '#C7D7FE',
         main : '#000080',
         border: "hsl(var(--border))",

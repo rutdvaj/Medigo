@@ -25,11 +25,11 @@ function HS1comp() {
       <div className="flex justify-center items-center">
         <section className="nav">
           <div className="navbar bg-secondary rounded-3xl w-[410px] h-[50px] lg:w-[1313px] lg:h-[60px] flex justify-between  items-center relative mt-3">
-            <div className="logo ml-3 mb-1 lg:ml-3 lg:mt-1 flex items-center">
+            <div className="logo ml-3 mb-1 lg:ml-3 lg:mt-1 flex items-center cursor-pointer">
               <Image src={logo} alt="" />
             </div>
 
-            <div className="links absolute left-1/2 transform -translate-x-1/2 hidden lg:flex lg:gap-12 lg:items-center">
+            <div className="links absolute left-1/2 transform -translate-x-1/2 hidden lg:flex lg:gap-12 lg:items-center cursor-pointer">
               <h1 className="font-sans font-medium text-[24px] text-main">
                 Features
               </h1>
