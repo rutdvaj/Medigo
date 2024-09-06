@@ -24,28 +24,31 @@ function HS1comp() {
     <div>
       <div className="flex justify-center items-center">
         <section className="nav">
-          <div className="navbar bg-secondary rounded-3xl w-[410px] h-[50px] lg:w-[1313px] lg:h-[60px] flex justify-between  items-center relative mt-3">
+          <div className="navbar bg-secondary rounded-3xl w-[320px] h-[50px] md:w-[720px] lg:w-[1024px] xl:w-[1313px] md:h-[55px] lg:h-[60px] flex justify-between items-center relative mt-3">
             <div className="logo ml-3 mb-1 lg:ml-3 lg:mt-1 flex items-center cursor-pointer">
               <Image src={logo} alt="" />
             </div>
 
-            <div className="links absolute left-1/2 transform -translate-x-1/2 hidden lg:flex lg:gap-12 lg:items-center cursor-pointer">
-              <h1 className="font-sans font-medium text-[24px] text-main">
+            {/* Links for Tablet (md) and Laptop (lg) */}
+            <div className="links absolute left-1/2 transform -translate-x-1/2 hidden md:flex md:gap-8 lg:gap-10 xl:gap-12 md:items-center cursor-pointer">
+              <h1 className="font-sans font-medium text-[16px] md:text-[20px] lg:text-[22px] xl:text-[24px] text-main">
                 Features
               </h1>
-              <h1 className="font-sans font-medium text-[24px] text-main">
+              <h1 className="font-sans font-medium text-[16px] md:text-[20px] lg:text-[22px] xl:text-[24px] text-main">
                 Steps
               </h1>
-              <h1 className="font-sans font-medium text-[24px] text-main">
+              <h1 className="font-sans font-medium text-[16px] md:text-[20px] lg:text-[22px] xl:text-[24px] text-main">
                 FAQ
               </h1>
             </div>
 
-            <div className="hidden lg:flex mr-4">
+            {/* Button for Laptop and Desktop */}
+            <div className="hidden xl:flex mr-4">
               <ShinyButtonDemo />
             </div>
 
-            <div className="hamburger mr-4 mt-4 items-center md:hidden">
+            {/* Hamburger for Mobile and Tablet */}
+            <div className="hamburger mr-4 mt-4 items-center md:hidden xl:hidden">
               <HamburgerMenu />
             </div>
           </div>

@@ -28,7 +28,7 @@ const HamburgerMenu = () => {
         />
       </div>
       {isOpen && (
-        <div className="fixed right-7 mt-5.75  z-50">
+        <div className="absolute right-0 ">
           <Dropdown />
         </div>
       )}

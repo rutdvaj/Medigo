@@ -17,7 +17,7 @@ function HS2comp() {
           </h1>
         </div>
         <div className="FAQ flex flex-col items-center gap-8 lg:flex lg:flex-row lg:gap-60 lg:mt-28">
-          <div className="faq1 mt-10 flex flex-col items-center text-center">
+          <div className="faq1  flex flex-col items-center text-center">
             <Image src={img1} alt="" className="lg:hidden" />
             <Image src={img4} alt="" className="lg:block hidden" />
             <div className="max-w-[291px]">
@@ -31,7 +31,7 @@ function HS2comp() {
           </div>
           <div className="faq2 flex flex-col items-center text-center ">
             <Image src={img2} alt="" className="lg:hidden" />
-            <Image src={img4} alt="" className="hidden lg:block" />
+            <Image src={img5} alt="" className="hidden lg:block" />
             <div className="max-w-[291px]">
               <div className="subtext font-sans text-main text-[26px] font-semibold lg:text-[32px]">
                 <BlurIn word="Quality Care" />
