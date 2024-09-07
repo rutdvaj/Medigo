@@ -7,7 +7,7 @@ function Beamcomp2() {
       pathColor="gray"
       gradientStartColor="#000080"
       gradientStopColor="#000080"
-      className="bg-secondary rounded-t-3xl "
+      className="bg-secondary rounded-3xl "
     />
   );
 }

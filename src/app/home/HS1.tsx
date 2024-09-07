@@ -24,7 +24,7 @@ function HS1comp() {
     <div>
       <div className="flex justify-center items-center">
         <section className="nav">
-          <div className="navbar bg-secondary rounded-3xl w-[320px] h-[50px] md:w-[720px] lg:w-[1024px] xl:w-[1313px] md:h-[55px] lg:h-[60px] flex justify-between items-center relative mt-3">
+          <div className="navbar bg-secondary rounded-3xl w-[320px] h-[50px] md:w-[720px] lg:w-[1024px] xl:w-[1313px] md:h-[55px] lg:h-[60px] flex justify-between items-center relative mt-3 md:justify-items-center lg:justify-items-center xl:justify-items-center">
             <div className="logo ml-3 mb-1 lg:ml-3 lg:mt-1 flex items-center cursor-pointer">
               <Image src={logo} alt="" />
             </div>
@@ -54,41 +54,49 @@ function HS1comp() {
           </div>
         </section>
       </div>
-      <section className="herosection flex flex-col  lg:flex-row lg:justify-between lg:mt-16">
-        <div className="mt-56 lg:mt-60 lg:mr-20 ml:10  lg:w-[850px] flex flex-col  lg:justify-center lg:items-center ">
-          <div className="hs-text  text-left  mr-5 justify-items-center ">
-            <BlurInDemo />
+      <section className="herosection flex flex-col lg:flex-row lg:justify-between lg:mt-16 xl:mt-20 px-4 lg:px-8 xl:px-12">
+        <div className="mt-56 lg:mt-60 xl:mt-64  xl:mr-24  w-full h-full flex flex-col lg:justify-center lg:items-center xl:items-center">
+          <div className="hs-text  xl:text-center mr-5 lg:mr-4 xl:mr-0 justify-items-center">
+            <BlurIn
+              word="Affordable healthcare,"
+              className="text-center text-[32px] md:text-[38px] lg:text-[42px] xl:text-[50px] font-bold font-serif text-main leading-tight"
+            />
           </div>
-          <div className="mr-6 ml-6 mt-8 justify-items-center">
-            <Btextcomp />
+          <div className="mr-6 ml-6 mt-8 lg:ml-0 xl:mr-0 lg:mr-0 xl:ml-0 flex justify-center">
+            <BlurIn
+              word="Affordable, expert care tailored to your needs, with easy travel
+              and significant savings."
+              className=" text-center font-sans text-main font-normal text-[20px] lg:text-[32px]"
+            />
           </div>
-          <div className="cta-2 py-20 ">
-            <div className="">
-              <AnimatedModalDemo />
-            </div>
+          <div className="cta-2 mt-20 mb-10 lg:mt-24 xl:mt-28 flex justify-center">
+            <AnimatedModalDemo />
           </div>
         </div>
-        <div className="main-img lg:hidden">
+        {/* Large Tablets (lg) */}
+        <div className="main-img lg:flex xl:hidden lg:mt-12 lg:justify-center">
           <ThreeDCardDemo />
         </div>
-        <div className="d-main-img  hidden lg:flex mt-12">
+        {/* Desktops (xl) */}
+        <div className="d-main-img hidden  xl:flex xl:mt-0 xl:justify-center">
           <Tdcomp />
         </div>
       </section>
+
       <section className="flex bg-primary justify-center items-center">
         <div className="mt-24">
           <HS2comp />
         </div>
       </section>
-      <section className="flex flex-col justify-items-center bg-secondary w-[420px] rounded-t-3xl mt-24">
+      <section className="flex flex-col justify-items-center bg-secondary w-full rounded-3xl mt-24">
         <div className="lg:hidden">
           <Beamcomp />
         </div>
       </section>
-      <div className="beams hidden lg:flex lg:flex-col lg:items-center lg:justify-center mx-auto">
+      <div className="beams hidden lg:flex lg:flex-col lg:items-center lg:justify-items-center">
         <Beamcomp2 />
       </div>
-      <div className="mt-26 hidden lg:block">
+      <div className="mt-10 hidden lg:block">
         <Bgridcomp />
       </div>
       <div>

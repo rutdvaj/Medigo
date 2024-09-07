@@ -10,13 +10,13 @@ import img6 from "../../../assets/Group 18bimg3.png";
 function HS2comp() {
   return (
     <div>
-      <section>
+      <section className="">
         <div className="m-texxt justify-center items-center">
           <h1 className="font-serif text-main text-[38px] font-bold text-center lg:text-[50px]">
             Why choose Us?
           </h1>
         </div>
-        <div className="FAQ flex flex-col items-center gap-8 lg:flex lg:flex-row lg:gap-60 lg:mt-28">
+        <div className="FAQ flex flex-col items-center gap-8 lg:flex lg:flex-row lg:gap-60 lg:mt-28 mt-10">
           <div className="faq1  flex flex-col items-center text-center">
             <Image src={img1} alt="" className="lg:hidden" />
             <Image src={img4} alt="" className="lg:block hidden" />

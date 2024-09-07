@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "../../components/ui/3d-card";
 import mainimg from "../../../assets/Group 39hsimg.png";
+import HDimg from "../../../assets/HDimg.png";
 export function Tdcomp() {
   return (
     <CardContainer className="inter-var">
