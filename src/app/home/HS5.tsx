@@ -40,7 +40,7 @@ function HS5Comp() {
             <div className="b-1 flex flex-row justify-between items-center gap-5">
               <div className="w-[1200px] h-[850px] px-5 py-5  bg-white rounded-3xl flex flex-col group cursor-pointer">
                 <h1 className="text-center text-main font-sans text-[36px] font-semibold">
-                  It's simple, we are affordable.
+                  Its simple, we are affordable.
                 </h1>
                 <div className="flex flex-row overflow-hidden">
                   <div className="4-b  relative z-[1] transform translate-x-[125px] translate-y-[5px] scale-[0.8] rotate-[-3deg] shadow-custom flex h-fit w-full flex-col items-center justify-between gap-x-2 gap-y-2 rounded-md border border-neutral-400/20 bg-white p-5 px-2.5 transition-all duration-300 ease-in-out group-hover:z-[5] group-hover:translate-x-[-20px] group-hover:scale-[1] group-hover:rotate-0 dark:border-neutral-800 dark:bg-neutral-900 shadow-xl">
