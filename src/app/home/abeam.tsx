@@ -57,7 +57,7 @@ export function AnimatedBeamDemo({
   return (
     <div
       className={cn(
-        "relative flex flex-col h-[500px] w-[1400px] items-center justify-center overflow-hidden rounded-3xl border bg-background  md:shadow-xl",
+        "relative flex flex-col h-[500px] w-[1400px] items-center justify-center overflow-hidden  bg-background  ",
         className,
         pathColor,
         gradientStartColor,

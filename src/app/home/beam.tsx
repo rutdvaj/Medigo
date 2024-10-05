@@ -1,14 +1,17 @@
 import React from "react";
 import { AnimatedBeamDemo } from "./abeam";
+import Bgridcomp from "./bentogridmob";
 
 function Beamcomp2() {
   return (
-    <AnimatedBeamDemo
-      pathColor="gray"
-      gradientStartColor="#000080"
-      gradientStopColor="#000080"
-      className="bg-secondary rounded-3xl "
-    />
+    <div>
+      <AnimatedBeamDemo
+        pathColor="gray"
+        gradientStartColor="#000080"
+        gradientStopColor="#000080"
+        className="bg-secondary rounded-3xl"
+      />
+    </div>
   );
 }
 

@@ -24,15 +24,18 @@ const config = {
       center: true,
       padding: "2rem",
       screens: {
-         'xs': '200px',
-      'sm': '640px',
-      'md': '768px',
-      'lg': '1024px',
-      'xl': '1280px',
-      '2xl': '1536px',
+        'xs': '200px',
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
       },
     },
     extend: {
+     
+    
+  
       fontFamily: {
         sans: ['var(--font-raleway)', 'sans-serif'],
          mono: ['var(--font-geist-mono)'],
@@ -41,6 +44,7 @@ const config = {
         primary: '#ffffff',
         secondary: '#C7D7FE',
         main : '#000080',
+        
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -75,6 +79,11 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
+        "border-beam": {
+          "100%": {
+            "offset-distance": "100%",
+          },
+        },
         "spin-around": {
           "0%": {
             transform: "translateZ(0) rotate(0)",
@@ -118,6 +127,7 @@ const config = {
         "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
          "spin-around": "spin-around calc(var(--speed) * 2) infinite linear",
         slide: "slide var(--speed) ease-in-out infinite alternate",
+        "border-beam": "border-beam calc(var(--duration)*1s) infinite linear",
       },
       
       

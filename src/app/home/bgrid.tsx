@@ -7,6 +7,7 @@ import Marquee from "@/components/magicui/marquee";
 import { AnimatedListDemo } from "./alist";
 import { AnimatedBeamMultipleOutputDemo } from "./abeammob";
 import { Calendar } from "@/components/ui/calendar";
+import { BorderBeam } from "@/components/magicui/border-beam";
 
 const files = [
   {

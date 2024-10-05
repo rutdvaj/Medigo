@@ -1,13 +1,12 @@
 import { cn } from "@/lib/utils";
 import Marquee from "@/components/magicui/marquee";
-import Image, { StaticImageData } from "next/image";
 import aimg1 from "../../../assets/aimg1.jpg";
 import aimg2 from "../../../assets/aimg2.jpg";
 import aimg3 from "../../../assets/aimg3.jpg";
 import aimg4 from "../../../assets/aimg4.jpg";
 import aimg5 from "../../../assets/aimg5.jpg";
 import aimg6 from "../../../assets/aimg6.jpg";
-import BlurIn from "@/components/magicui/blur-in";
+import Image, { StaticImageData } from "next/image";
 
 const reviews = [
   {
@@ -90,21 +89,17 @@ const ReviewCard = ({
   );
 };
 
-export function MarqueeDemo() {
+export function MarqueeDemoVertical() {
   return (
-    <div className="relative flex max-w-[1000px] flex-col items-center justify-center overflow-hidden rounded-lg  bg-white  md:shadow-xl font-sans">
-      <Marquee pauseOnHover className="[--duration:20s]">
+    <div className="relative flex h-[500px] w-[370px] flex-row items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl font-sans">
+      <Marquee pauseOnHover vertical className="[--duration:20s]">
         {firstRow.map((review) => (
           <ReviewCard key={review.username} {...review} />
         ))}
       </Marquee>
-      <Marquee reverse pauseOnHover className="[--duration:20s]">
-        {secondRow.map((review) => (
-          <ReviewCard key={review.username} {...review} />
-        ))}
-      </Marquee>
-      <div className="pointer-events-none absolute  inset-y-0 left-0  bg-gradient-to-r "></div>
-      <div className="pointer-events-none absolute    inset-y-0 right-0  bg-gradient-to-l "></div>
+
+      <div className="pointer-events-none absolute inset-x-0 top-0 h-1/3 bg-gradient-to-b from-white dark:from-background"></div>
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-white dark:from-background"></div>
     </div>
   );
 }
