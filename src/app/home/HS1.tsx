@@ -128,7 +128,7 @@ function HS1comp() {
         <Newcmp />
       </div>
       <section className="mt-96 ">
-        <div className="hidden md:flex">
+        <div className="hidden md:block">
           <HS5Comp />
         </div>
       </section>
