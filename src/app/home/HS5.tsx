@@ -33,7 +33,7 @@ function HS5Comp() {
         <div className="bg-main w-[1400px] h-[1600px] justify-center items-center rounded-3xl">
           <div className="mt-20">
             <h1 className="text-white justify-items-center font-semibold text-center text-[52px] font-sans">
-              Why We're Better
+              Why Were Better
             </h1>
           </div>
           <div className="flex flex-col justify-center items-center gap-5 mt-16">
