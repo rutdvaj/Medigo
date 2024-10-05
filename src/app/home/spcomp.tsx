@@ -2,7 +2,7 @@ import React from "react";
 import Marquee from "@/components/magicui/marquee";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
-import img1 from "../../../../mapp/public/assets/airbnblogo.png";
+import img1 from "../../../public/assets/airbnblogo.png"; // Adjusted path
 import img2 from "../../../public/assets/aplogo.png";
 import img3 from "../../../public/assets/qalogo.png";
 import img4 from "../../../public/assets/fortislogo.png";
