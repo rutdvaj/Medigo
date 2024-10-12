@@ -34,7 +34,7 @@ export async function BoxRevealDemo() {
 
       <BoxReveal boxColor={"#000080"} duration={0.5}>
         <div className="mt-4 sm:mt-[1.5rem]">
-          <p className="mt-2 sm:mt-[.5rem] font-sans text-main text-[14px] sm:text-[16px] font-medium text-center">
+          <p className="mt-2 sm:mt-[.5rem] font-sans text-main text-[14px] sm:text-[16px] font-medium text-center max-w-[360px] md:w-full lg:w-full xl:w-full">
             At 58, Medigo arranged my spinal cord surgery abroad. The care was
             outstanding, and the transparent payment process made everything
             easier. They even handled my insurance without hassle. I am grateful
