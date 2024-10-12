@@ -8,7 +8,7 @@ const AvatarUrl = ["../../../assets/profileimg.jpg"];
 
 export async function BoxRevealDemo() {
   return (
-    <div className="h-full  max-w-[400px] md:w-full items-center justify-center overflow-hidden mt-10 px-4 sm:px-6 lg:px-8">
+    <div className="h-full  max-w-[370px] md:max-w-full lg:max-w-full xl:max-w-full items-center justify-center overflow-hidden mt-10 px-4 sm:px-6 lg:px-8">
       <BoxReveal boxColor={"#000080"} duration={0.95}>
         <div className="flex flex-col sm:flex-row sm:gap-5 items-start">
           {/* Example 1: Passing an image URL */}
@@ -34,7 +34,7 @@ export async function BoxRevealDemo() {
 
       <BoxReveal boxColor={"#000080"} duration={0.5}>
         <div className="mt-4 sm:mt-[1.5rem]">
-          <p className="mt-2 sm:mt-[.5rem] font-sans text-main text-[14px] sm:text-[16px] font-medium text-center max-w-[360px] md:w-full lg:w-full xl:w-full">
+          <p className="mt-2 sm:mt-[.5rem] font-sans text-main text-[14px] sm:text-[16px] font-medium text-center  ">
             At 58, Medigo arranged my spinal cord surgery abroad. The care was
             outstanding, and the transparent payment process made everything
             easier. They even handled my insurance without hassle. I am grateful
