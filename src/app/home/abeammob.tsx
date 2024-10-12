@@ -55,7 +55,7 @@ export function AnimatedBeamMultipleOutputDemo({
   return (
     <div
       className={cn(
-        "relative flex h-[500px] w-full items-center justify-center overflow-hidden rounded-lg  bg-background p-10 md:shadow-xl  flex-col mb-80 md:mb-64",
+        "relative flex h-[500px] w-full items-center justify-center overflow-hidden rounded-lg  bg-background p-10 md:shadow-xl  flex-col mb-[550px] md:mb-64",
         className,
         pathColor,
         gradientStartColor,
