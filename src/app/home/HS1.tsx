@@ -132,7 +132,7 @@ function HS1comp() {
           <HS5Comp />
         </div>
       </section>
-      <div className="mt-72">
+      <div className="mt-80">
         <Ctacomp />
       </div>
       <section className="footer">
