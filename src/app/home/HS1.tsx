@@ -70,7 +70,7 @@ function HS1comp() {
         {/* Text Section */}
         <div className="mt-36 md:mt-48 lg:mt-60 xl:mt-64 w-full h-full flex flex-col lg:justify-center lg:items-start xl:items-center">
           {/* Title */}
-          <div className="hs-text text-center lg:text-left xl:text-center mr-5 lg:mr-0 xl:mr-0">
+          <div className="hs-text text-center lg:text-left xl:text-center mr-3 lg:mr-0 xl:mr-0">
             <BlurIn
               word="Affordable healthcare,"
               className="text-[32px] md:text-[38px] lg:text-[42px] xl:text-[50px] font-bold font-serif text-main leading-tight"
