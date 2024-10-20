@@ -20,7 +20,7 @@ function Ctacomp() {
                 />
               </div>
             </div>
-            <div className="text z-10 mt-4 max-w-[360px] flex flex-col items-center text-center text-black dark:text-white ">
+            <div className="text z-10 mt-4 max-w-[320px] flex flex-col items-center text-center text-black dark:text-white ">
               <BlurIn
                 word="Start your health journey Now."
                 className="font-sans font-bold text-black text-[26px] "
