@@ -88,7 +88,7 @@ function HS1comp() {
           >
             <BlurIn
               word="Affordable healthcare,"
-              className="text-[32px] md:text-[38px] lg:text-[42px] xl:text-[50px] font-bold font-serif text-main leading-tight max-w-[360px] md:max-w-full lg:max-w-full xl:max-w-full"
+              className=" text-[28px] md:text-[38px] lg:text-[42px] xl:text-[50px] font-bold font-serif text-main leading-tight w-full"
             />
           </motion.div>
 
