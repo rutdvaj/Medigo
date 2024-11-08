@@ -7,7 +7,7 @@ import { InputWithButton } from "./input";
 function FooterComp() {
   return (
     <div>
-      <div className="mainfooter flex flex-col gap-8 items-center justify-around bg-secondary w-full h-full md:flex-row rounded-xl mt-10 p-4 md:p-8">
+      <div className="mainfooter flex flex-col gap-8 items-center justify-around bg-secondary w-full h-full lg:flex-row rounded-xl mt-10 p-4 md:p-8">
         <div className="f-1 flex flex-col justify-center items-center gap-1">
           <div className="logo-name flex flex-row gap-3">
             <div>

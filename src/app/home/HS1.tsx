@@ -228,7 +228,7 @@ function HS1comp() {
           whileInView={{ opacity: 1, y: 0 }} // Animation on viewport entry
           transition={{ duration: 1, delay: 0.5 }} // Delayed animation for stagger effect (0.5 seconds)
           viewport={{ once: true }} // Animation triggers only once
-          className="hidden md:block" // Maintain existing className for visibility
+          className="hidden lg:block" // Maintain existing className for visibility
         >
           <HS5Comp />
         </motion.div>
