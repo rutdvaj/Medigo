@@ -43,7 +43,7 @@ function HS1comp() {
             {/* Links for Tablet (md) and Laptop (lg) */}
             <div className="links absolute left-1/2 transform -translate-x-1/2 hidden md:flex md:gap-8 lg:gap-10 xl:gap-12 md:items-center cursor-pointer">
               <h1 className="font-sans font-medium text-[16px] md:text-[20px] lg:text-[22px] xl:text-[24px] text-main">
-                Steps
+                Step
               </h1>
               <h1 className="font-sans font-medium text-[16px] md:text-[20px] lg:text-[22px] xl:text-[24px] text-main">
                 Features
