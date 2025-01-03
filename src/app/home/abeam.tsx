@@ -102,7 +102,7 @@ export function AnimatedBeamDemo({
       </div>
 
       <AnimatedBeam
-        containerRef={containerRef}
+        containerRef={containerRef as React.RefObject<HTMLElement>}
         fromRef={div1Ref}
         toRef={div4Ref}
         curvature={-75}
@@ -112,7 +112,7 @@ export function AnimatedBeamDemo({
         gradientStopColor={gradientStopColor}
       />
       <AnimatedBeam
-        containerRef={containerRef}
+        containerRef={containerRef as React.RefObject<HTMLElement>}
         fromRef={div2Ref}
         toRef={div4Ref}
         pathColor={pathColor}
@@ -120,7 +120,7 @@ export function AnimatedBeamDemo({
         gradientStopColor={gradientStopColor}
       />
       <AnimatedBeam
-        containerRef={containerRef}
+        containerRef={containerRef as React.RefObject<HTMLElement>}
         fromRef={div3Ref}
         toRef={div4Ref}
         curvature={75}
@@ -130,7 +130,7 @@ export function AnimatedBeamDemo({
         gradientStopColor={gradientStopColor}
       />
       <AnimatedBeam
-        containerRef={containerRef}
+        containerRef={containerRef as React.RefObject<HTMLElement>}
         fromRef={div5Ref}
         toRef={div4Ref}
         curvature={-75}
@@ -141,7 +141,7 @@ export function AnimatedBeamDemo({
         gradientStopColor={gradientStopColor}
       />
       <AnimatedBeam
-        containerRef={containerRef}
+        containerRef={containerRef as React.RefObject<HTMLElement>}
         fromRef={div6Ref}
         toRef={div4Ref}
         reverse
@@ -150,7 +150,7 @@ export function AnimatedBeamDemo({
         gradientStopColor={gradientStopColor}
       />
       <AnimatedBeam
-        containerRef={containerRef}
+        containerRef={containerRef as React.RefObject<HTMLElement>}
         fromRef={div7Ref}
         toRef={div4Ref}
         curvature={75}

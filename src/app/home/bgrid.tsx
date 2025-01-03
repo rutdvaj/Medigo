@@ -97,7 +97,7 @@ const features = [
     background: (
       <Calendar
         mode="single"
-        selected={new Date(2022, 4, 11, 0, 0, 0)}
+        selected={new Date(2025, 4, 11, 0, 0, 0)}
         className="absolute right-0  origin-top rounded-md border transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_30%)] group-hover:scale-105"
       />
     ),
