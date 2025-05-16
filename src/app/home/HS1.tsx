@@ -46,7 +46,7 @@ function HS1comp() {
                 Steps
               </h1>
               <h1 className="font-sans font-medium text-[16px] md:text-[20px] lg:text-[22px] xl:text-[24px] text-main">
-                Features
+                Feature
               </h1>
               <h1 className="font-sans font-medium text-[16px] md:text-[20px] lg:text-[22px] xl:text-[24px] text-main">
                 Testimonials
